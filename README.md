@@ -6,7 +6,7 @@ Run sonarqube scanner
 
 ```yaml
     - name: Scan code with sonarqube
-      uses: minddocdev/sonarqube-action@master
+      uses: aofdev/sonarqube-action@master
       with:
         projectName: myApp
         sources: myFolder/myApp
