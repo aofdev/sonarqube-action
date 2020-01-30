@@ -2,18 +2,23 @@ name: 'Sonarqube Scanner'
 description: 'Scan code using Sonarqube'
 author: 'MindDoc GmbH'
 inputs:
-  app:
-    description: 'Application name'
+  projectName:
+    description: 'project name'
     required: true
-  baseDir:
-    description: 'Project base directory'
+  sources:
+    description: 'analysis sources'
     required: true
-  login:
-    description: 'Sonar login string'
+  token:
+    description: 'Sonar token string'
     required: true
-  url:
-    description: 'Sonar server url'
+  host:
+    description: 'Sonar server host'
     required: true
+  inclusions:
+    description: 'Sonar code inclusions'
+  exclusions:
+    description: 'Sonar code exclusions'
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
