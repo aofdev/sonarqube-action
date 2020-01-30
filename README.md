@@ -9,6 +9,7 @@ Run sonarqube scanner
       uses: aofdev/sonarqube-action@master
       with:
         projectName: myApp
+        projectKey: github/repo
         sources: myFolder/myApp
         token: ${{ secrets.SONAR_TOKEN }}
         host: https://mySonarServer.com

@@ -5,6 +5,9 @@ inputs:
   projectName:
     description: 'project name'
     required: true
+  projectKey:
+    description: 'project key'
+    required: true
   sources:
     description: 'analysis sources'
     required: true
