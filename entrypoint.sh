@@ -11,5 +11,4 @@ sonar-scanner \
 -Dsonar.projectName="$INPUT_PROJECTNAME" \
 -Dsonar.exclusions="$INPUT_EXCLUSIONS" \
 # -Dsonar.inclusions="$INPUT_INCLUSIONS" \
--Dsonar.scm.provider=git \
--Dsonar.sourceEncoding=UTF-8 \
+-Dsonar.scm.provider=git
