@@ -10,6 +10,7 @@ Run sonarqube scanner
       with:
         projectName: myApp
         projectKey: github/repo
+        projectBaseDirectory: myFolder/myApp
         sources: myFolder/myApp
         token: ${{ secrets.SONAR_TOKEN }}
         host: https://mySonarServer.com

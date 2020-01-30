@@ -8,6 +8,9 @@ inputs:
   projectKey:
     description: 'project key'
     required: true
+  projectBaseDirectory:
+    description: 'project base directory'
+    required: true
   sources:
     description: 'analysis sources'
     required: true
