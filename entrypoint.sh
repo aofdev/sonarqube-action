@@ -13,6 +13,6 @@ sonar-scanner \
 -Dsonar.projectBaseDir="$INPUT_PROJECTBASEDIRECTORY" \
 -Dsonar.projectName="$INPUT_PROJECTNAME" \
 -Dsonar.sources="$INPUT_SOURCES" \
+-Dsonar.scm.provider=git \
 # -Dsonar.exclusions="$INPUT_EXCLUSIONS" \
 # -Dsonar.inclusions="$INPUT_INCLUSIONS" \
--Dsonar.scm.provider=git
