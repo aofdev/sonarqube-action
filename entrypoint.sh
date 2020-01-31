@@ -3,9 +3,9 @@
 sonar-scanner \
 -Dsonar.host.url="$INPUT_HOST" \
 -Dsonar.login="$INPUT_TOKEN" \
--Dsonar.projectKey=$INPUT_PROJECTKEY \
+-Dsonar.projectKey=${PWD##*/} \
 -Dsonar.projectBaseDir="$INPUT_PROJECTBASEDIRECTORY" \
 -Dsonar.projectName="$INPUT_PROJECTNAME" \
 -Dsonar.sources="$INPUT_SOURCES" \
--Dsonar.exclusions="$INPUT_EXCLUSIONS" \
 -Dsonar.scm.provider=git \
+# -Dsonar.exclusions="$INPUT_EXCLUSIONS" \
