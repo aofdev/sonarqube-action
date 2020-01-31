@@ -16,6 +16,5 @@ Run sonarqube scanner
         token: ${{ secrets.SONAR_TOKEN }}
         host: https://mySonarServer.com
         # Optional
-        inclusions: folder/regex <myFolder/myApp/**>
         exclusions: folder/regex <myFolder/**>
 ```

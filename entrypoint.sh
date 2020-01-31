@@ -8,5 +8,4 @@ sonar-scanner \
 -Dsonar.projectName="$INPUT_PROJECTNAME" \
 -Dsonar.sources="$INPUT_SOURCES" \
 -Dsonar.exclusions="$INPUT_EXCLUSIONS" \
--Dsonar.inclusions="$INPUT_INCLUSIONS" \
 -Dsonar.scm.provider=git \

@@ -20,8 +20,6 @@ inputs:
   host:
     description: 'Sonar server host'
     required: true
-  inclusions:
-    description: 'Sonar code inclusions'
   exclusions:
     description: 'Sonar code exclusions'
 
