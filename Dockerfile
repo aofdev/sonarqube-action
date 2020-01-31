@@ -4,10 +4,10 @@
 # image:    sonar-scanner-typescript
 # name:     minddocdev/sonar-scanner-typescript
 # repo:     https://github.com/minddocdev/sonar-scanner-typescript
-# Requires: newtmitch/sonar-scanner:3.3.0-alpine
+# Requires: newtmitch/sonar-scanner:4.0.0-alpine
 # authors:  development@minddoc.com
 # ------------------------------------------------------
-FROM newtmitch/sonar-scanner:3.3.0-alpine
+FROM newtmitch/sonar-scanner:4.0.0-alpine
 
 LABEL maintainer="development@minddoc.com"
 LABEL version="1.0"

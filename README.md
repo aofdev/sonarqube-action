@@ -5,7 +5,8 @@
 Run sonarqube scanner
 
 ```yaml
-    - name: Scan code with sonarqube
+    - uses: actions/checkout@v2
+    - name: scan code with sonarqube
       uses: aofdev/sonarqube-action@master
       with:
         projectName: myApp
